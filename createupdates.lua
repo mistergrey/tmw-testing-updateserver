@@ -1,9 +1,4 @@
 #!/usr/bin/env lua
---[[This script is optimized to create the basis for an updateserver for tmw-ea. 
-You just have to set the WORLD_DATA_REPOSITORY by using: export WORLD_DATA_REPOSITORY=path/to/.git of the client-data repository
-the CLIENT_UPDATES_DIR has to be set with export CLIENT_UPDATES_DIR=path/to/output
-comment by tux9th
-script by bjorn]]--
 
 local function checkenv(varname)
     local value = os.getenv(varname)

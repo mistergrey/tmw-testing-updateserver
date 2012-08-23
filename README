@@ -1,0 +1,17 @@
+How to setup an Updateserver for TMW-EA
+- Date 23rd of August 2012
+
+This README will explain how to set up an Updateserver. It won't explain how to issue updates.
+
+First of all you have to download the createupdates.lua. Then you have to modify the createupdates binbash script.
+WORLD_DATA_REPOSITORY has to point to the .git dir of your client-data repository.
+CLIENT_UPDATE_DIR is where the zips which this script creates will be put.
+
+When this is done you have to check whether all the files which should be included in the basis are listed in the script. 
+Therefore check below "local packages = {".
+Once this is done you have to install adler32. You have to build adler32 out of the adler32.c. 
+I used "cc adler32.c -lz -o adler32" to build it. Once you have the adler32 move it to /usr/bin.
+
+Now type chmod +x createupdates and execute it with ./createupdate
+Everything should be in place now and you should have a few zips in the CLIENT_UPDATE_DIR.
+Uploade those to your webserver and link your server to that adress. Don't forget to add a news.txt.

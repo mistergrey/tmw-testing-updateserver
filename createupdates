@@ -1,0 +1,4 @@
+#!/bin/bash
+export WORLD_DATA_REPOSITORY=./tmwa-client-data/.git
+export CLIENT_UPDATES_DIR=./
+lua ./createupdates.lua
