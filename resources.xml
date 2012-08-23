@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <updates>
- <update type="data"  file="definitions-b683a8c.zip" hash="9f942d55" />
- <update type="music"  required="no" file="music-6250327.zip" hash="b5e99556" />
- <update type="data"  file="sound-15383fe.zip" hash=" 8fec923" />
- <update type="data"  file="maps-e7800d0.zip" hash="3da83fc4" />
- <update type="data"  file="graphics-74cae7e.zip" hash="ab29522b" />
+ <update type="data"  file="definitions-b683a8c.zip" hash="a7d037e8" />
+ <update type="music"  required="no" file="music-6250327.zip" hash="904514a2" />
+ <update type="data"  file="sound-15383fe.zip" hash="e9830b8d" />
+ <update type="data"  file="maps-71ad6d9.zip" hash="e476b505" />
+ <update type="data"  file="graphics-74cae7e.zip" hash="c48d21d9" />
 </updates>
